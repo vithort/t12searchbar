@@ -7,8 +7,14 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  public isSearchbarOpened = false;
+
   constructor(public navCtrl: NavController) {
 
+  }
+
+  onSearch(event) {
+    console.log(event.target.value);
   }
 
 }
