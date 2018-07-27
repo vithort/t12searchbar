@@ -1,0 +1,7 @@
+{
+  "name": "t12searchbar",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
